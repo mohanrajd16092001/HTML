@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS</title>
+    <style>
+        /* Apply CSS styles */
+        .lb {
+            margin-bottom: 10px; /* Add margin to create spacing between labels */
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin-bottom: 10px; /* Add margin to create spacing between input fields */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%; /* Make input fields expand to the full width of their container */
+        }
+
+        button {
+            background-color: #0073b1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%; /* Make the button expand to the full width of its container */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="text" class="lb">First Name:</label>
+        <input type="text" placeholder="First Name">
+
+        <label for="text" class="lb">Last Name:</label>
+        <input type="text" placeholder="Last Name">
+        <br>
+
+        <label for="text" class="lb">Email:</label>
+        <input type="text" placeholder="Email">
+    </form>
+    <button type="button">Sign Up</button>
+</body>
+</html>
